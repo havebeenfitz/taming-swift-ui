@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D58B2252986FCF700FBD64E /* DotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D58B2242986FCF700FBD64E /* DotsView.swift */; };
+		4D58B2272986FE0500FBD64E /* ScaleWaveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D58B2262986FE0500FBD64E /* ScaleWaveEffect.swift */; };
 		4D71A7E32985966F00E96EC7 /* DotsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71A7E22985966F00E96EC7 /* DotsModel.swift */; };
 		4D741B8A297F1FF200E36DC0 /* LiveCodingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D741B89297F1FF200E36DC0 /* LiveCodingApp.swift */; };
 		4D741B8E297F1FF400E36DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D741B8D297F1FF400E36DC0 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D58B2242986FCF700FBD64E /* DotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsView.swift; sourceTree = "<group>"; };
+		4D58B2262986FE0500FBD64E /* ScaleWaveEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleWaveEffect.swift; sourceTree = "<group>"; };
 		4D71A7E22985966F00E96EC7 /* DotsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsModel.swift; sourceTree = "<group>"; };
 		4D741B86297F1FF200E36DC0 /* LiveCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D741B89297F1FF200E36DC0 /* LiveCodingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCodingApp.swift; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 			isa = PBXGroup;
 			children = (
 				4D71A7E22985966F00E96EC7 /* DotsModel.swift */,
+				4D58B2242986FCF700FBD64E /* DotsView.swift */,
+				4D58B2262986FE0500FBD64E /* ScaleWaveEffect.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -168,7 +174,9 @@
 				4D741BB1297F206500E36DC0 /* VSpacer.swift in Sources */,
 				4D741BB2297F206500E36DC0 /* FilledButton.swift in Sources */,
 				4D71A7E32985966F00E96EC7 /* DotsModel.swift in Sources */,
+				4D58B2252986FCF700FBD64E /* DotsView.swift in Sources */,
 				4D741B8A297F1FF200E36DC0 /* LiveCodingApp.swift in Sources */,
+				4D58B2272986FE0500FBD64E /* ScaleWaveEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

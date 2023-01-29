@@ -8,7 +8,7 @@ struct MainView: View {
         GeometryReader { _ in
             VStack {
                 VSpacer(150)
-                // TODO:
+                DotsView(model: dotsModel)
                 VSpacer(150)
                 FilledButton("Start") {
                     dotsModel.state = .loading
